@@ -12,6 +12,7 @@ namespace KargoTakip001
 {
     public partial class FrmPersonelHead : Form
     {
+        
         FormView frm = new FormView();
         public FrmPersonelHead()
         {
@@ -29,5 +30,12 @@ namespace KargoTakip001
             FrmKargoOlustur frm1 = new FrmKargoOlustur();
             frm.Form(frm1, this);
         }
+
+        private void FrmPersonelHead_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormManager.FormClose(e);
+        }
+
+
     }
 }

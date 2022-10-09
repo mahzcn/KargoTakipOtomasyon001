@@ -94,6 +94,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmTakip";
             this.Text = "FrmTakip";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmTakip_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

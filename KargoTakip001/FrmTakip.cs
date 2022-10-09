@@ -16,5 +16,10 @@ namespace KargoTakip001
         {
             InitializeComponent();
         }
+
+        private void FrmTakip_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormManager.FormClose(e);
+        }
     }
 }

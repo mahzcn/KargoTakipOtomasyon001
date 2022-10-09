@@ -94,6 +94,7 @@
             this.Controls.Add(this.txtSicil);
             this.Name = "FrmPersonel";
             this.Text = "FrmPersonel";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPersonel_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -24,5 +24,10 @@ namespace KargoTakip001
             frm.Form(frm1, this);
 
         }
+
+        private void FrmMudur_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormManager.FormClose(e);
+        }
     }
 }

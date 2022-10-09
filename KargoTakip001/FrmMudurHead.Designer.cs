@@ -72,6 +72,7 @@
             this.Controls.Add(this.button1);
             this.Name = "FrmMudurHead";
             this.Text = "FrmMudurHead";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMudurHead_FormClosing);
             this.ResumeLayout(false);
 
         }

@@ -21,5 +21,10 @@ namespace KargoTakip001
         {
 
         }
+
+        private void FrmKargoOlustur_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            FormManager.FormClose(e);
+        }
     }
 }

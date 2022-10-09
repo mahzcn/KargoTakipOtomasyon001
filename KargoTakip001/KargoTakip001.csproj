@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormManager.cs" />
     <Compile Include="FormView.cs" />
     <Compile Include="FrmMudur.cs">
       <SubType>Form</SubType>

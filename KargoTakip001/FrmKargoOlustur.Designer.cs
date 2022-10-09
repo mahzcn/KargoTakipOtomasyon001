@@ -870,6 +870,7 @@
             this.Controls.Add(this.textBox14);
             this.Name = "FrmKargoOlustur";
             this.Text = "FrmPersonelDetail";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmKargoOlustur_FormClosing);
             this.grpBoxAlıcı.ResumeLayout(false);
             this.grpBoxAlıcı.PerformLayout();
             this.panel1.ResumeLayout(false);

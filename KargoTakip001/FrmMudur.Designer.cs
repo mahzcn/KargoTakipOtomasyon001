@@ -94,6 +94,7 @@
             this.Controls.Add(this.txtSicil);
             this.Name = "FrmMudur";
             this.Text = "FrmMudur";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMudur_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
