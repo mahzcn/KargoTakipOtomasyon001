@@ -12,6 +12,7 @@ namespace KargoTakip001
 {
     public partial class FrmPersonelControler : Form
     {
+        FormView frm = new FormView();
         public FrmPersonelControler()
         {
             InitializeComponent();
@@ -20,6 +21,12 @@ namespace KargoTakip001
         private void FrmPersonelControler_FormClosing(object sender, FormClosingEventArgs e)
         {
             FormManager.FormClose(e);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmMudurHead frm1 = new FrmMudurHead();
+            frm.Form(frm1, this);
         }
     }
 }

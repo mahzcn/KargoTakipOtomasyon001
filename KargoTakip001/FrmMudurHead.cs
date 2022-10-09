@@ -37,5 +37,18 @@ namespace KargoTakip001
         {
             FormManager.FormClose(e);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmMudur frm1 = new FrmMudur();
+            frm.Form(frm1, this);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmTakip frm1 = new FrmTakip();
+            frm.Form(frm1, this);
+
+        }
     }
 }

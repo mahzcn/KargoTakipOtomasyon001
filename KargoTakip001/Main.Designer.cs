@@ -34,7 +34,7 @@
             // 
             // btnPersonel
             // 
-            this.btnPersonel.Location = new System.Drawing.Point(12, 12);
+            this.btnPersonel.Location = new System.Drawing.Point(12, 91);
             this.btnPersonel.Name = "btnPersonel";
             this.btnPersonel.Size = new System.Drawing.Size(267, 267);
             this.btnPersonel.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // btnMudur
             // 
-            this.btnMudur.Location = new System.Drawing.Point(285, 12);
+            this.btnMudur.Location = new System.Drawing.Point(285, 91);
             this.btnMudur.Name = "btnMudur";
             this.btnMudur.Size = new System.Drawing.Size(267, 267);
             this.btnMudur.TabIndex = 1;

@@ -16,5 +16,6 @@ namespace KargoTakip001
             frm2.Hide();
             
         }
+
     }
 }

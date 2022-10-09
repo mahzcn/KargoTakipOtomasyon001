@@ -29,5 +29,11 @@ namespace KargoTakip001
         {
             FormManager.FormClose(e);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Main frm1 = new Main();
+            frm.Form(frm1,this);
+        }
     }
 }
