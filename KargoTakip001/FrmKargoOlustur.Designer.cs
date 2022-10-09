@@ -31,79 +31,79 @@
             this.grpBoxAlıcı = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mTxtTelefonAlici = new System.Windows.Forms.MaskedTextBox();
+            this.mTxtTcAlici = new System.Windows.Forms.MaskedTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.txtCadde = new System.Windows.Forms.TextBox();
-            this.txtMahalle = new System.Windows.Forms.TextBox();
-            this.txtIlce = new System.Windows.Forms.TextBox();
-            this.txtKodu = new System.Windows.Forms.TextBox();
+            this.txtCaddeAlici = new System.Windows.Forms.TextBox();
+            this.txtMahalleAlici = new System.Windows.Forms.TextBox();
+            this.txtIlceAlici = new System.Windows.Forms.TextBox();
+            this.txtMailAlici = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtIl = new System.Windows.Forms.TextBox();
+            this.txtIlAlici = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtSoyadAlici = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtAdAlici = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtVergiNo = new System.Windows.Forms.TextBox();
-            this.txtKurumAdi = new System.Windows.Forms.TextBox();
+            this.txtVergiNoAlici = new System.Windows.Forms.TextBox();
+            this.txtKurumAdiAlici = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rBtnGercekAlici = new System.Windows.Forms.RadioButton();
+            this.rBtnTuzelAlici = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.grpBoxGönderen = new System.Windows.Forms.GroupBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.webBrowser2 = new System.Windows.Forms.WebBrowser();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMailGonderici = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.mTxtTelefonGonderici = new System.Windows.Forms.MaskedTextBox();
+            this.mTxtTcGonderici = new System.Windows.Forms.MaskedTextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtCaddeGonderici = new System.Windows.Forms.TextBox();
+            this.txtMahalleGonderici = new System.Windows.Forms.TextBox();
+            this.txtIlceGonderici = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtIlGonderici = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtSoyadGonderici = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtAdGönderici = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtVergiGonderici = new System.Windows.Forms.TextBox();
+            this.txtKurumAdiGonderici = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.rBtnGercek = new System.Windows.Forms.RadioButton();
+            this.rBtnTuzel = new System.Windows.Forms.RadioButton();
             this.label27 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cBoxKargoTuru = new System.Windows.Forms.ComboBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtKilo = new System.Windows.Forms.TextBox();
+            this.txtKargoDesi = new System.Windows.Forms.TextBox();
             this.btnKargoOlustur = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.lblPersonelAd = new System.Windows.Forms.Label();
+            this.lblPersonelSoyad = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
+            this.lblPersonelId = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label41 = new System.Windows.Forms.Label();
+            this.lblFiyat = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblGonderino = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.grpBoxAlıcı.SuspendLayout();
@@ -115,36 +115,36 @@
             // grpBoxAlıcı
             // 
             this.grpBoxAlıcı.Controls.Add(this.panel1);
-            this.grpBoxAlıcı.Controls.Add(this.maskedTextBox3);
-            this.grpBoxAlıcı.Controls.Add(this.maskedTextBox1);
+            this.grpBoxAlıcı.Controls.Add(this.mTxtTelefonAlici);
+            this.grpBoxAlıcı.Controls.Add(this.mTxtTcAlici);
             this.grpBoxAlıcı.Controls.Add(this.label13);
             this.grpBoxAlıcı.Controls.Add(this.label14);
             this.grpBoxAlıcı.Controls.Add(this.label12);
             this.grpBoxAlıcı.Controls.Add(this.label11);
-            this.grpBoxAlıcı.Controls.Add(this.txtCadde);
-            this.grpBoxAlıcı.Controls.Add(this.txtMahalle);
-            this.grpBoxAlıcı.Controls.Add(this.txtIlce);
-            this.grpBoxAlıcı.Controls.Add(this.txtKodu);
+            this.grpBoxAlıcı.Controls.Add(this.txtCaddeAlici);
+            this.grpBoxAlıcı.Controls.Add(this.txtMahalleAlici);
+            this.grpBoxAlıcı.Controls.Add(this.txtIlceAlici);
+            this.grpBoxAlıcı.Controls.Add(this.txtMailAlici);
             this.grpBoxAlıcı.Controls.Add(this.label10);
             this.grpBoxAlıcı.Controls.Add(this.label9);
-            this.grpBoxAlıcı.Controls.Add(this.txtIl);
+            this.grpBoxAlıcı.Controls.Add(this.txtIlAlici);
             this.grpBoxAlıcı.Controls.Add(this.label8);
             this.grpBoxAlıcı.Controls.Add(this.label7);
-            this.grpBoxAlıcı.Controls.Add(this.txtSoyad);
+            this.grpBoxAlıcı.Controls.Add(this.txtSoyadAlici);
             this.grpBoxAlıcı.Controls.Add(this.label6);
-            this.grpBoxAlıcı.Controls.Add(this.txtAd);
+            this.grpBoxAlıcı.Controls.Add(this.txtAdAlici);
             this.grpBoxAlıcı.Controls.Add(this.label5);
-            this.grpBoxAlıcı.Controls.Add(this.txtVergiNo);
-            this.grpBoxAlıcı.Controls.Add(this.txtKurumAdi);
+            this.grpBoxAlıcı.Controls.Add(this.txtVergiNoAlici);
+            this.grpBoxAlıcı.Controls.Add(this.txtKurumAdiAlici);
             this.grpBoxAlıcı.Controls.Add(this.label4);
             this.grpBoxAlıcı.Controls.Add(this.label3);
-            this.grpBoxAlıcı.Controls.Add(this.radioButton2);
-            this.grpBoxAlıcı.Controls.Add(this.radioButton1);
+            this.grpBoxAlıcı.Controls.Add(this.rBtnGercekAlici);
+            this.grpBoxAlıcı.Controls.Add(this.rBtnTuzelAlici);
             this.grpBoxAlıcı.Controls.Add(this.label2);
             this.grpBoxAlıcı.Location = new System.Drawing.Point(618, 67);
             this.grpBoxAlıcı.Name = "grpBoxAlıcı";
             this.grpBoxAlıcı.Size = new System.Drawing.Size(294, 613);
-            this.grpBoxAlıcı.TabIndex = 0;
+            this.grpBoxAlıcı.TabIndex = 1;
             this.grpBoxAlıcı.TabStop = false;
             this.grpBoxAlıcı.Text = "Alıcı";
             // 
@@ -163,25 +163,25 @@
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(282, 143);
-            this.webBrowser1.TabIndex = 0;
+            this.webBrowser1.TabIndex = 1000;
             // 
-            // maskedTextBox3
+            // mTxtTelefonAlici
             // 
-            this.maskedTextBox3.Enabled = false;
-            this.maskedTextBox3.Location = new System.Drawing.Point(95, 531);
-            this.maskedTextBox3.Mask = "(999) 000-0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox3.TabIndex = 34;
+            this.mTxtTelefonAlici.Enabled = false;
+            this.mTxtTelefonAlici.Location = new System.Drawing.Point(95, 531);
+            this.mTxtTelefonAlici.Mask = "(999) 000-0000";
+            this.mTxtTelefonAlici.Name = "mTxtTelefonAlici";
+            this.mTxtTelefonAlici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTelefonAlici.TabIndex = 11;
             // 
-            // maskedTextBox1
+            // mTxtTcAlici
             // 
-            this.maskedTextBox1.Enabled = false;
-            this.maskedTextBox1.Location = new System.Drawing.Point(95, 364);
-            this.maskedTextBox1.Mask = "00000000000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox1.TabIndex = 3;
+            this.mTxtTcAlici.Enabled = false;
+            this.mTxtTcAlici.Location = new System.Drawing.Point(95, 364);
+            this.mTxtTcAlici.Mask = "00000000000";
+            this.mTxtTcAlici.Name = "mTxtTcAlici";
+            this.mTxtTcAlici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTcAlici.TabIndex = 6;
             // 
             // label13
             // 
@@ -219,37 +219,37 @@
             this.label11.TabIndex = 23;
             this.label11.Text = "İl :";
             // 
-            // txtCadde
+            // txtCaddeAlici
             // 
-            this.txtCadde.Enabled = false;
-            this.txtCadde.Location = new System.Drawing.Point(94, 501);
-            this.txtCadde.Name = "txtCadde";
-            this.txtCadde.Size = new System.Drawing.Size(100, 22);
-            this.txtCadde.TabIndex = 22;
+            this.txtCaddeAlici.Enabled = false;
+            this.txtCaddeAlici.Location = new System.Drawing.Point(94, 501);
+            this.txtCaddeAlici.Name = "txtCaddeAlici";
+            this.txtCaddeAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtCaddeAlici.TabIndex = 10;
             // 
-            // txtMahalle
+            // txtMahalleAlici
             // 
-            this.txtMahalle.Enabled = false;
-            this.txtMahalle.Location = new System.Drawing.Point(94, 473);
-            this.txtMahalle.Name = "txtMahalle";
-            this.txtMahalle.Size = new System.Drawing.Size(100, 22);
-            this.txtMahalle.TabIndex = 21;
+            this.txtMahalleAlici.Enabled = false;
+            this.txtMahalleAlici.Location = new System.Drawing.Point(94, 473);
+            this.txtMahalleAlici.Name = "txtMahalleAlici";
+            this.txtMahalleAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtMahalleAlici.TabIndex = 9;
             // 
-            // txtIlce
+            // txtIlceAlici
             // 
-            this.txtIlce.Enabled = false;
-            this.txtIlce.Location = new System.Drawing.Point(94, 445);
-            this.txtIlce.Name = "txtIlce";
-            this.txtIlce.Size = new System.Drawing.Size(100, 22);
-            this.txtIlce.TabIndex = 20;
+            this.txtIlceAlici.Enabled = false;
+            this.txtIlceAlici.Location = new System.Drawing.Point(94, 445);
+            this.txtIlceAlici.Name = "txtIlceAlici";
+            this.txtIlceAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtIlceAlici.TabIndex = 8;
             // 
-            // txtKodu
+            // txtMailAlici
             // 
-            this.txtKodu.Enabled = false;
-            this.txtKodu.Location = new System.Drawing.Point(94, 559);
-            this.txtKodu.Name = "txtKodu";
-            this.txtKodu.Size = new System.Drawing.Size(100, 22);
-            this.txtKodu.TabIndex = 19;
+            this.txtMailAlici.Enabled = false;
+            this.txtMailAlici.Location = new System.Drawing.Point(94, 559);
+            this.txtMailAlici.Name = "txtMailAlici";
+            this.txtMailAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtMailAlici.TabIndex = 12;
             // 
             // label10
             // 
@@ -269,13 +269,13 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "Telefon :";
             // 
-            // txtIl
+            // txtIlAlici
             // 
-            this.txtIl.Enabled = false;
-            this.txtIl.Location = new System.Drawing.Point(94, 417);
-            this.txtIl.Name = "txtIl";
-            this.txtIl.Size = new System.Drawing.Size(100, 22);
-            this.txtIl.TabIndex = 15;
+            this.txtIlAlici.Enabled = false;
+            this.txtIlAlici.Location = new System.Drawing.Point(94, 417);
+            this.txtIlAlici.Name = "txtIlAlici";
+            this.txtIlAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtIlAlici.TabIndex = 7;
             // 
             // label8
             // 
@@ -295,13 +295,13 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "TC :";
             // 
-            // txtSoyad
+            // txtSoyadAlici
             // 
-            this.txtSoyad.Enabled = false;
-            this.txtSoyad.Location = new System.Drawing.Point(94, 339);
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(100, 22);
-            this.txtSoyad.TabIndex = 11;
+            this.txtSoyadAlici.Enabled = false;
+            this.txtSoyadAlici.Location = new System.Drawing.Point(94, 339);
+            this.txtSoyadAlici.Name = "txtSoyadAlici";
+            this.txtSoyadAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtSoyadAlici.TabIndex = 5;
             // 
             // label6
             // 
@@ -312,13 +312,13 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Soyad";
             // 
-            // txtAd
+            // txtAdAlici
             // 
-            this.txtAd.Enabled = false;
-            this.txtAd.Location = new System.Drawing.Point(94, 311);
-            this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(100, 22);
-            this.txtAd.TabIndex = 9;
+            this.txtAdAlici.Enabled = false;
+            this.txtAdAlici.Location = new System.Drawing.Point(94, 311);
+            this.txtAdAlici.Name = "txtAdAlici";
+            this.txtAdAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtAdAlici.TabIndex = 4;
             // 
             // label5
             // 
@@ -328,22 +328,23 @@
             this.label5.Size = new System.Drawing.Size(30, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "Ad :";
+//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // txtVergiNo
+            // txtVergiNoAlici
             // 
-            this.txtVergiNo.Enabled = false;
-            this.txtVergiNo.Location = new System.Drawing.Point(94, 283);
-            this.txtVergiNo.Name = "txtVergiNo";
-            this.txtVergiNo.Size = new System.Drawing.Size(100, 22);
-            this.txtVergiNo.TabIndex = 7;
+            this.txtVergiNoAlici.Enabled = false;
+            this.txtVergiNoAlici.Location = new System.Drawing.Point(94, 283);
+            this.txtVergiNoAlici.Name = "txtVergiNoAlici";
+            this.txtVergiNoAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtVergiNoAlici.TabIndex = 3;
             // 
-            // txtKurumAdi
+            // txtKurumAdiAlici
             // 
-            this.txtKurumAdi.Enabled = false;
-            this.txtKurumAdi.Location = new System.Drawing.Point(94, 255);
-            this.txtKurumAdi.Name = "txtKurumAdi";
-            this.txtKurumAdi.Size = new System.Drawing.Size(100, 22);
-            this.txtKurumAdi.TabIndex = 6;
+            this.txtKurumAdiAlici.Enabled = false;
+            this.txtKurumAdiAlici.Location = new System.Drawing.Point(94, 255);
+            this.txtKurumAdiAlici.Name = "txtKurumAdiAlici";
+            this.txtKurumAdiAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtKurumAdiAlici.TabIndex = 2;
             // 
             // label4
             // 
@@ -363,27 +364,28 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Vergi No :";
             // 
-            // radioButton2
+            // rBtnGercekAlici
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(193, 209);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(72, 20);
-            this.radioButton2.TabIndex = 4;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Gerçek";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rBtnGercekAlici.AutoSize = true;
+            this.rBtnGercekAlici.Location = new System.Drawing.Point(193, 209);
+            this.rBtnGercekAlici.Name = "rBtnGercekAlici";
+            this.rBtnGercekAlici.Size = new System.Drawing.Size(72, 20);
+            this.rBtnGercekAlici.TabIndex = 1;
+            this.rBtnGercekAlici.TabStop = true;
+            this.rBtnGercekAlici.Text = "Gerçek";
+            this.rBtnGercekAlici.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rBtnTuzelAlici
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(20, 209);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 20);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Tüzel";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rBtnTuzelAlici.AutoSize = true;
+            this.rBtnTuzelAlici.Location = new System.Drawing.Point(20, 209);
+            this.rBtnTuzelAlici.Name = "rBtnTuzelAlici";
+            this.rBtnTuzelAlici.Size = new System.Drawing.Size(61, 20);
+            this.rBtnTuzelAlici.TabIndex = 0;
+            this.rBtnTuzelAlici.TabStop = true;
+            this.rBtnTuzelAlici.Text = "Tüzel";
+            this.rBtnTuzelAlici.UseVisualStyleBackColor = true;
+            this.rBtnTuzelAlici.CheckedChanged += new System.EventHandler(this.rBtnTuzelAlici_CheckedChanged);
             // 
             // label2
             // 
@@ -397,36 +399,36 @@
             // grpBoxGönderen
             // 
             this.grpBoxGönderen.Controls.Add(this.panel2);
-            this.grpBoxGönderen.Controls.Add(this.textBox4);
+            this.grpBoxGönderen.Controls.Add(this.txtMailGonderici);
             this.grpBoxGönderen.Controls.Add(this.label19);
-            this.grpBoxGönderen.Controls.Add(this.maskedTextBox4);
-            this.grpBoxGönderen.Controls.Add(this.maskedTextBox2);
+            this.grpBoxGönderen.Controls.Add(this.mTxtTelefonGonderici);
+            this.grpBoxGönderen.Controls.Add(this.mTxtTcGonderici);
             this.grpBoxGönderen.Controls.Add(this.label15);
             this.grpBoxGönderen.Controls.Add(this.label16);
             this.grpBoxGönderen.Controls.Add(this.label17);
             this.grpBoxGönderen.Controls.Add(this.label18);
-            this.grpBoxGönderen.Controls.Add(this.textBox1);
-            this.grpBoxGönderen.Controls.Add(this.textBox2);
-            this.grpBoxGönderen.Controls.Add(this.textBox3);
+            this.grpBoxGönderen.Controls.Add(this.txtCaddeGonderici);
+            this.grpBoxGönderen.Controls.Add(this.txtMahalleGonderici);
+            this.grpBoxGönderen.Controls.Add(this.txtIlceGonderici);
             this.grpBoxGönderen.Controls.Add(this.label20);
-            this.grpBoxGönderen.Controls.Add(this.textBox6);
+            this.grpBoxGönderen.Controls.Add(this.txtIlGonderici);
             this.grpBoxGönderen.Controls.Add(this.label21);
             this.grpBoxGönderen.Controls.Add(this.label22);
-            this.grpBoxGönderen.Controls.Add(this.textBox8);
+            this.grpBoxGönderen.Controls.Add(this.txtSoyadGonderici);
             this.grpBoxGönderen.Controls.Add(this.label23);
-            this.grpBoxGönderen.Controls.Add(this.textBox9);
+            this.grpBoxGönderen.Controls.Add(this.txtAdGönderici);
             this.grpBoxGönderen.Controls.Add(this.label24);
-            this.grpBoxGönderen.Controls.Add(this.textBox10);
-            this.grpBoxGönderen.Controls.Add(this.textBox11);
+            this.grpBoxGönderen.Controls.Add(this.txtVergiGonderici);
+            this.grpBoxGönderen.Controls.Add(this.txtKurumAdiGonderici);
             this.grpBoxGönderen.Controls.Add(this.label25);
             this.grpBoxGönderen.Controls.Add(this.label26);
-            this.grpBoxGönderen.Controls.Add(this.radioButton3);
-            this.grpBoxGönderen.Controls.Add(this.radioButton4);
+            this.grpBoxGönderen.Controls.Add(this.rBtnGercek);
+            this.grpBoxGönderen.Controls.Add(this.rBtnTuzel);
             this.grpBoxGönderen.Controls.Add(this.label27);
             this.grpBoxGönderen.Location = new System.Drawing.Point(12, 67);
             this.grpBoxGönderen.Name = "grpBoxGönderen";
             this.grpBoxGönderen.Size = new System.Drawing.Size(302, 618);
-            this.grpBoxGönderen.TabIndex = 1;
+            this.grpBoxGönderen.TabIndex = 0;
             this.grpBoxGönderen.TabStop = false;
             this.grpBoxGönderen.Text = "Gönderici";
             // 
@@ -445,15 +447,15 @@
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
             this.webBrowser2.Size = new System.Drawing.Size(285, 143);
-            this.webBrowser2.TabIndex = 0;
+            this.webBrowser2.TabIndex = 1000;
             // 
-            // textBox4
+            // txtMailGonderici
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(107, 557);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 65;
+            this.txtMailGonderici.Enabled = false;
+            this.txtMailGonderici.Location = new System.Drawing.Point(107, 557);
+            this.txtMailGonderici.Name = "txtMailGonderici";
+            this.txtMailGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtMailGonderici.TabIndex = 13;
             // 
             // label19
             // 
@@ -464,23 +466,23 @@
             this.label19.TabIndex = 64;
             this.label19.Text = "E-Mail :";
             // 
-            // maskedTextBox4
+            // mTxtTelefonGonderici
             // 
-            this.maskedTextBox4.Enabled = false;
-            this.maskedTextBox4.Location = new System.Drawing.Point(107, 528);
-            this.maskedTextBox4.Mask = "(999) 000-0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox4.TabIndex = 63;
+            this.mTxtTelefonGonderici.Enabled = false;
+            this.mTxtTelefonGonderici.Location = new System.Drawing.Point(107, 528);
+            this.mTxtTelefonGonderici.Mask = "(999) 000-0000";
+            this.mTxtTelefonGonderici.Name = "mTxtTelefonGonderici";
+            this.mTxtTelefonGonderici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTelefonGonderici.TabIndex = 12;
             // 
-            // maskedTextBox2
+            // mTxtTcGonderici
             // 
-            this.maskedTextBox2.Enabled = false;
-            this.maskedTextBox2.Location = new System.Drawing.Point(107, 362);
-            this.maskedTextBox2.Mask = "00000000000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox2.TabIndex = 62;
+            this.mTxtTcGonderici.Enabled = false;
+            this.mTxtTcGonderici.Location = new System.Drawing.Point(107, 362);
+            this.mTxtTcGonderici.Mask = "00000000000";
+            this.mTxtTcGonderici.Name = "mTxtTcGonderici";
+            this.mTxtTcGonderici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTcGonderici.TabIndex = 7;
             // 
             // label15
             // 
@@ -518,29 +520,29 @@
             this.label18.TabIndex = 49;
             this.label18.Text = "İl :";
             // 
-            // textBox1
+            // txtCaddeGonderici
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(107, 496);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 48;
+            this.txtCaddeGonderici.Enabled = false;
+            this.txtCaddeGonderici.Location = new System.Drawing.Point(107, 496);
+            this.txtCaddeGonderici.Name = "txtCaddeGonderici";
+            this.txtCaddeGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtCaddeGonderici.TabIndex = 11;
             // 
-            // textBox2
+            // txtMahalleGonderici
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(107, 468);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 47;
+            this.txtMahalleGonderici.Enabled = false;
+            this.txtMahalleGonderici.Location = new System.Drawing.Point(107, 468);
+            this.txtMahalleGonderici.Name = "txtMahalleGonderici";
+            this.txtMahalleGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtMahalleGonderici.TabIndex = 10;
             // 
-            // textBox3
+            // txtIlceGonderici
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(107, 440);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 46;
+            this.txtIlceGonderici.Enabled = false;
+            this.txtIlceGonderici.Location = new System.Drawing.Point(107, 440);
+            this.txtIlceGonderici.Name = "txtIlceGonderici";
+            this.txtIlceGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtIlceGonderici.TabIndex = 9;
             // 
             // label20
             // 
@@ -551,13 +553,13 @@
             this.label20.TabIndex = 42;
             this.label20.Text = "Telefon :";
             // 
-            // textBox6
+            // txtIlGonderici
             // 
-            this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(107, 412);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 41;
+            this.txtIlGonderici.Enabled = false;
+            this.txtIlGonderici.Location = new System.Drawing.Point(107, 412);
+            this.txtIlGonderici.Name = "txtIlGonderici";
+            this.txtIlGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtIlGonderici.TabIndex = 8;
             // 
             // label21
             // 
@@ -577,13 +579,13 @@
             this.label22.TabIndex = 38;
             this.label22.Text = "TC :";
             // 
-            // textBox8
+            // txtSoyadGonderici
             // 
-            this.textBox8.Enabled = false;
-            this.textBox8.Location = new System.Drawing.Point(107, 334);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
-            this.textBox8.TabIndex = 37;
+            this.txtSoyadGonderici.Enabled = false;
+            this.txtSoyadGonderici.Location = new System.Drawing.Point(107, 334);
+            this.txtSoyadGonderici.Name = "txtSoyadGonderici";
+            this.txtSoyadGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtSoyadGonderici.TabIndex = 6;
             // 
             // label23
             // 
@@ -594,13 +596,13 @@
             this.label23.TabIndex = 36;
             this.label23.Text = "Soyad";
             // 
-            // textBox9
+            // txtAdGönderici
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(107, 306);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
-            this.textBox9.TabIndex = 35;
+            this.txtAdGönderici.Enabled = false;
+            this.txtAdGönderici.Location = new System.Drawing.Point(107, 306);
+            this.txtAdGönderici.Name = "txtAdGönderici";
+            this.txtAdGönderici.Size = new System.Drawing.Size(100, 22);
+            this.txtAdGönderici.TabIndex = 5;
             // 
             // label24
             // 
@@ -611,21 +613,21 @@
             this.label24.TabIndex = 34;
             this.label24.Text = "Ad :";
             // 
-            // textBox10
+            // txtVergiGonderici
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(107, 278);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 22);
-            this.textBox10.TabIndex = 33;
+            this.txtVergiGonderici.Enabled = false;
+            this.txtVergiGonderici.Location = new System.Drawing.Point(107, 278);
+            this.txtVergiGonderici.Name = "txtVergiGonderici";
+            this.txtVergiGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtVergiGonderici.TabIndex = 4;
             // 
-            // textBox11
+            // txtKurumAdiGonderici
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(107, 250);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 22);
-            this.textBox11.TabIndex = 32;
+            this.txtKurumAdiGonderici.Enabled = false;
+            this.txtKurumAdiGonderici.Location = new System.Drawing.Point(107, 250);
+            this.txtKurumAdiGonderici.Name = "txtKurumAdiGonderici";
+            this.txtKurumAdiGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtKurumAdiGonderici.TabIndex = 3;
             // 
             // label25
             // 
@@ -645,27 +647,28 @@
             this.label26.TabIndex = 28;
             this.label26.Text = "Vergi No :";
             // 
-            // radioButton3
+            // rBtnGercek
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(206, 204);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(72, 20);
-            this.radioButton3.TabIndex = 30;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Gerçek";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rBtnGercek.AutoSize = true;
+            this.rBtnGercek.Location = new System.Drawing.Point(206, 204);
+            this.rBtnGercek.Name = "rBtnGercek";
+            this.rBtnGercek.Size = new System.Drawing.Size(72, 20);
+            this.rBtnGercek.TabIndex = 2;
+            this.rBtnGercek.TabStop = true;
+            this.rBtnGercek.Text = "Gerçek";
+            this.rBtnGercek.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rBtnTuzel
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(33, 204);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(61, 20);
-            this.radioButton4.TabIndex = 29;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Tüzel";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rBtnTuzel.AutoSize = true;
+            this.rBtnTuzel.Location = new System.Drawing.Point(33, 204);
+            this.rBtnTuzel.Name = "rBtnTuzel";
+            this.rBtnTuzel.Size = new System.Drawing.Size(61, 20);
+            this.rBtnTuzel.TabIndex = 1;
+            this.rBtnTuzel.TabStop = true;
+            this.rBtnTuzel.Text = "Tüzel";
+            this.rBtnTuzel.UseVisualStyleBackColor = true;
+            this.rBtnTuzel.CheckedChanged += new System.EventHandler(this.rBtnTuzel_CheckedChanged);
             // 
             // label27
             // 
@@ -685,13 +688,13 @@
             this.label34.TabIndex = 61;
             this.label34.Text = "Kargo Özellikleri";
             // 
-            // comboBox2
+            // cBoxKargoTuru
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(445, 227);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 60;
+            this.cBoxKargoTuru.FormattingEnabled = true;
+            this.cBoxKargoTuru.Location = new System.Drawing.Point(445, 227);
+            this.cBoxKargoTuru.Name = "cBoxKargoTuru";
+            this.cBoxKargoTuru.Size = new System.Drawing.Size(121, 24);
+            this.cBoxKargoTuru.TabIndex = 4;
             // 
             // label32
             // 
@@ -720,26 +723,26 @@
             this.label30.TabIndex = 57;
             this.label30.Text = "Kargo Desi :";
             // 
-            // textBox14
+            // txtKilo
             // 
-            this.textBox14.Location = new System.Drawing.Point(446, 199);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 22);
-            this.textBox14.TabIndex = 56;
+            this.txtKilo.Location = new System.Drawing.Point(446, 199);
+            this.txtKilo.Name = "txtKilo";
+            this.txtKilo.Size = new System.Drawing.Size(100, 22);
+            this.txtKilo.TabIndex = 3;
             // 
-            // textBox15
+            // txtKargoDesi
             // 
-            this.textBox15.Location = new System.Drawing.Point(446, 171);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 22);
-            this.textBox15.TabIndex = 54;
+            this.txtKargoDesi.Location = new System.Drawing.Point(446, 171);
+            this.txtKargoDesi.Name = "txtKargoDesi";
+            this.txtKargoDesi.Size = new System.Drawing.Size(100, 22);
+            this.txtKargoDesi.TabIndex = 2;
             // 
             // btnKargoOlustur
             // 
             this.btnKargoOlustur.Location = new System.Drawing.Point(400, 356);
             this.btnKargoOlustur.Name = "btnKargoOlustur";
             this.btnKargoOlustur.Size = new System.Drawing.Size(166, 80);
-            this.btnKargoOlustur.TabIndex = 2;
+            this.btnKargoOlustur.TabIndex = 5;
             this.btnKargoOlustur.Text = "Oluştur";
             this.btnKargoOlustur.UseVisualStyleBackColor = true;
             this.btnKargoOlustur.Click += new System.EventHandler(this.btnKargoOlustur_Click);
@@ -753,23 +756,23 @@
             this.label35.TabIndex = 3;
             this.label35.Text = "Personel Ad :";
             // 
-            // label36
+            // lblPersonelAd
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(457, 80);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(41, 16);
-            this.label36.TabIndex = 4;
-            this.label36.Text = "NULL";
+            this.lblPersonelAd.AutoSize = true;
+            this.lblPersonelAd.Location = new System.Drawing.Point(457, 80);
+            this.lblPersonelAd.Name = "lblPersonelAd";
+            this.lblPersonelAd.Size = new System.Drawing.Size(41, 16);
+            this.lblPersonelAd.TabIndex = 4;
+            this.lblPersonelAd.Text = "NULL";
             // 
-            // label37
+            // lblPersonelSoyad
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(457, 96);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 16);
-            this.label37.TabIndex = 6;
-            this.label37.Text = "NULL";
+            this.lblPersonelSoyad.AutoSize = true;
+            this.lblPersonelSoyad.Location = new System.Drawing.Point(457, 96);
+            this.lblPersonelSoyad.Name = "lblPersonelSoyad";
+            this.lblPersonelSoyad.Size = new System.Drawing.Size(41, 16);
+            this.lblPersonelSoyad.TabIndex = 6;
+            this.lblPersonelSoyad.Text = "NULL";
             // 
             // label38
             // 
@@ -780,14 +783,14 @@
             this.label38.TabIndex = 5;
             this.label38.Text = "Personel Soyad :";
             // 
-            // label39
+            // lblPersonelId
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(457, 118);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(41, 16);
-            this.label39.TabIndex = 8;
-            this.label39.Text = "NULL";
+            this.lblPersonelId.AutoSize = true;
+            this.lblPersonelId.Location = new System.Drawing.Point(457, 118);
+            this.lblPersonelId.Name = "lblPersonelId";
+            this.lblPersonelId.Size = new System.Drawing.Size(41, 16);
+            this.lblPersonelId.TabIndex = 8;
+            this.lblPersonelId.Text = "NULL";
             // 
             // label40
             // 
@@ -803,18 +806,18 @@
             this.button1.Location = new System.Drawing.Point(400, 465);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(166, 80);
-            this.button1.TabIndex = 9;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Kaydet";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label41
+            // lblFiyat
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(457, 272);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(41, 16);
-            this.label41.TabIndex = 11;
-            this.label41.Text = "NULL";
+            this.lblFiyat.AutoSize = true;
+            this.lblFiyat.Location = new System.Drawing.Point(457, 272);
+            this.lblFiyat.Name = "lblFiyat";
+            this.lblFiyat.Size = new System.Drawing.Size(41, 16);
+            this.lblFiyat.TabIndex = 11;
+            this.lblFiyat.Text = "NULL";
             // 
             // label42
             // 
@@ -825,14 +828,14 @@
             this.label42.TabIndex = 10;
             this.label42.Text = "Fiyat :";
             // 
-            // label1
+            // lblGonderino
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(457, 295);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 16);
-            this.label1.TabIndex = 63;
-            this.label1.Text = "NULL";
+            this.lblGonderino.AutoSize = true;
+            this.lblGonderino.Location = new System.Drawing.Point(457, 295);
+            this.lblGonderino.Name = "lblGonderino";
+            this.lblGonderino.Size = new System.Drawing.Size(41, 16);
+            this.lblGonderino.TabIndex = 63;
+            this.lblGonderino.Text = "NULL";
             // 
             // label28
             // 
@@ -858,27 +861,27 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 697);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblGonderino);
             this.Controls.Add(this.label28);
-            this.Controls.Add(this.label41);
+            this.Controls.Add(this.lblFiyat);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label39);
+            this.Controls.Add(this.lblPersonelId);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cBoxKargoTuru);
             this.Controls.Add(this.label40);
-            this.Controls.Add(this.label37);
+            this.Controls.Add(this.lblPersonelSoyad);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.label36);
+            this.Controls.Add(this.lblPersonelAd);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.btnKargoOlustur);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.grpBoxGönderen);
             this.Controls.Add(this.grpBoxAlıcı);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.txtKargoDesi);
             this.Controls.Add(this.label30);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.txtKilo);
             this.Name = "FrmKargoOlustur";
             this.Text = "FrmPersonelDetail";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmKargoOlustur_FormClosing);
@@ -898,79 +901,79 @@
         private System.Windows.Forms.GroupBox grpBoxAlıcı;
         private System.Windows.Forms.GroupBox grpBoxGönderen;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rBtnGercekAlici;
+        private System.Windows.Forms.RadioButton rBtnTuzelAlici;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtKodu;
+        private System.Windows.Forms.TextBox txtMailAlici;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtIl;
+        private System.Windows.Forms.TextBox txtIlAlici;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.TextBox txtSoyadAlici;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtAdAlici;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtVergiNo;
-        private System.Windows.Forms.TextBox txtKurumAdi;
+        private System.Windows.Forms.TextBox txtVergiNoAlici;
+        private System.Windows.Forms.TextBox txtKurumAdiAlici;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtCadde;
-        private System.Windows.Forms.TextBox txtMahalle;
-        private System.Windows.Forms.TextBox txtIlce;
+        private System.Windows.Forms.TextBox txtCaddeAlici;
+        private System.Windows.Forms.TextBox txtMahalleAlici;
+        private System.Windows.Forms.TextBox txtIlceAlici;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtCaddeGonderici;
+        private System.Windows.Forms.TextBox txtMahalleGonderici;
+        private System.Windows.Forms.TextBox txtIlceGonderici;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtIlGonderici;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtSoyadGonderici;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtAdGönderici;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtVergiGonderici;
+        private System.Windows.Forms.TextBox txtKurumAdiGonderici;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton rBtnGercek;
+        private System.Windows.Forms.RadioButton rBtnTuzel;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button btnKargoOlustur;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.TextBox txtKilo;
+        private System.Windows.Forms.TextBox txtKargoDesi;
+        private System.Windows.Forms.MaskedTextBox mTxtTcAlici;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cBoxKargoTuru;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.MaskedTextBox mTxtTcGonderici;
+        private System.Windows.Forms.MaskedTextBox mTxtTelefonAlici;
+        private System.Windows.Forms.MaskedTextBox mTxtTelefonGonderici;
+        private System.Windows.Forms.TextBox txtMailGonderici;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label lblPersonelAd;
+        private System.Windows.Forms.Label lblPersonelSoyad;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lblPersonelId;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label lblFiyat;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.WebBrowser webBrowser2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblGonderino;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button button2;
     }

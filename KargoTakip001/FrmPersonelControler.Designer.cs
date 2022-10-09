@@ -113,14 +113,14 @@
             this.comboBox1.Location = new System.Drawing.Point(108, 151);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 24);
-            this.comboBox1.TabIndex = 61;
+            this.comboBox1.TabIndex = 4;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(108, 123);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 60;
+            this.textBox2.TabIndex = 3;
             // 
             // label2
             // 
@@ -136,7 +136,7 @@
             this.button3.Location = new System.Drawing.Point(309, 409);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 95);
-            this.button3.TabIndex = 58;
+            this.button3.TabIndex = 13;
             this.button3.Text = "Ekle";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -145,7 +145,7 @@
             this.button2.Location = new System.Drawing.Point(160, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 95);
-            this.button2.TabIndex = 57;
+            this.button2.TabIndex = 12;
             this.button2.Text = "Sil";
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -154,7 +154,7 @@
             this.button1.Location = new System.Drawing.Point(11, 409);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 95);
-            this.button1.TabIndex = 56;
+            this.button1.TabIndex = 11;
             this.button1.Text = "Güncelle";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -164,7 +164,7 @@
             this.maskedTextBox3.Mask = "(999) 000-0000";
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox3.TabIndex = 53;
+            this.maskedTextBox3.TabIndex = 9;
             // 
             // maskedTextBox1
             // 
@@ -172,7 +172,7 @@
             this.maskedTextBox1.Mask = "00000000000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox1.TabIndex = 35;
+            this.maskedTextBox1.TabIndex = 2;
             // 
             // label13
             // 
@@ -215,28 +215,28 @@
             this.txtCadde.Location = new System.Drawing.Point(108, 314);
             this.txtCadde.Name = "txtCadde";
             this.txtCadde.Size = new System.Drawing.Size(100, 22);
-            this.txtCadde.TabIndex = 48;
+            this.txtCadde.TabIndex = 8;
             // 
             // txtMahalle
             // 
             this.txtMahalle.Location = new System.Drawing.Point(108, 286);
             this.txtMahalle.Name = "txtMahalle";
             this.txtMahalle.Size = new System.Drawing.Size(100, 22);
-            this.txtMahalle.TabIndex = 47;
+            this.txtMahalle.TabIndex = 7;
             // 
             // txtIlce
             // 
             this.txtIlce.Location = new System.Drawing.Point(108, 258);
             this.txtIlce.Name = "txtIlce";
             this.txtIlce.Size = new System.Drawing.Size(100, 22);
-            this.txtIlce.TabIndex = 46;
+            this.txtIlce.TabIndex = 6;
             // 
             // txtKodu
             // 
             this.txtKodu.Location = new System.Drawing.Point(108, 372);
             this.txtKodu.Name = "txtKodu";
             this.txtKodu.Size = new System.Drawing.Size(100, 22);
-            this.txtKodu.TabIndex = 45;
+            this.txtKodu.TabIndex = 10;
             // 
             // label10
             // 
@@ -261,7 +261,7 @@
             this.txtIl.Location = new System.Drawing.Point(108, 230);
             this.txtIl.Name = "txtIl";
             this.txtIl.Size = new System.Drawing.Size(100, 22);
-            this.txtIl.TabIndex = 42;
+            this.txtIl.TabIndex = 5;
             // 
             // label8
             // 
@@ -286,7 +286,7 @@
             this.txtSoyad.Location = new System.Drawing.Point(108, 70);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(100, 22);
-            this.txtSoyad.TabIndex = 39;
+            this.txtSoyad.TabIndex = 1;
             // 
             // label6
             // 
@@ -302,7 +302,7 @@
             this.txtAd.Location = new System.Drawing.Point(108, 42);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(100, 22);
-            this.txtAd.TabIndex = 37;
+            this.txtAd.TabIndex = 0;
             // 
             // label5
             // 
@@ -319,7 +319,7 @@
             this.groupBox2.Location = new System.Drawing.Point(488, 65);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(509, 547);
-            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Personeller";
             // 
@@ -339,7 +339,7 @@
             this.button4.Location = new System.Drawing.Point(12, 12);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(79, 27);
-            this.button4.TabIndex = 68;
+            this.button4.TabIndex = 2;
             this.button4.Text = "geri";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);

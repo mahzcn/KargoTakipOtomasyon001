@@ -11,13 +11,13 @@ namespace KargoTakip001
     {
         public static void FormClose(FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Çıkmak istediğinize emin misiniz?", "Dikkat", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK) 
+            if (MessageBox.Show("Çıkmak istediğinize emin misiniz?", "Dikkat", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) 
             { 
             Environment.Exit(1);
             }
             else
             {
-                e.Cancel = true; // to don't close form is user change his mind
+                e.Cancel = true; 
             }
         
         }

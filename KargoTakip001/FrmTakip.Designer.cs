@@ -52,14 +52,14 @@
             this.textBox1.Location = new System.Drawing.Point(155, 74);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(89, 126);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 45);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 1;
             this.button1.Text = "Ara";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -80,7 +80,7 @@
             this.groupBox1.Location = new System.Drawing.Point(339, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(449, 426);
-            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
@@ -89,7 +89,7 @@
             this.button2.Location = new System.Drawing.Point(12, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 27);
-            this.button2.TabIndex = 68;
+            this.button2.TabIndex = 35;
             this.button2.Text = "geri";
             this.button2.UseVisualStyleBackColor = true;
             // 
