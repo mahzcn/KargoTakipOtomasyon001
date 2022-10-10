@@ -106,6 +106,8 @@
             this.lblGonderino = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.grpBoxAlıcı.SuspendLayout();
             this.panel1.SuspendLayout();
             this.grpBoxGönderen.SuspendLayout();
@@ -328,7 +330,6 @@
             this.label5.Size = new System.Drawing.Size(30, 16);
             this.label5.TabIndex = 8;
             this.label5.Text = "Ad :";
-//            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtVergiNoAlici
             // 
@@ -699,7 +700,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(351, 233);
+            this.label32.Location = new System.Drawing.Point(351, 232);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(79, 16);
             this.label32.TabIndex = 59;
@@ -750,7 +751,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(363, 79);
+            this.label35.Location = new System.Drawing.Point(405, -2);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(87, 16);
             this.label35.TabIndex = 3;
@@ -759,7 +760,7 @@
             // lblPersonelAd
             // 
             this.lblPersonelAd.AutoSize = true;
-            this.lblPersonelAd.Location = new System.Drawing.Point(457, 80);
+            this.lblPersonelAd.Location = new System.Drawing.Point(499, -1);
             this.lblPersonelAd.Name = "lblPersonelAd";
             this.lblPersonelAd.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelAd.TabIndex = 4;
@@ -768,7 +769,7 @@
             // lblPersonelSoyad
             // 
             this.lblPersonelSoyad.AutoSize = true;
-            this.lblPersonelSoyad.Location = new System.Drawing.Point(457, 96);
+            this.lblPersonelSoyad.Location = new System.Drawing.Point(499, 15);
             this.lblPersonelSoyad.Name = "lblPersonelSoyad";
             this.lblPersonelSoyad.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelSoyad.TabIndex = 6;
@@ -777,7 +778,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(341, 96);
+            this.label38.Location = new System.Drawing.Point(383, 15);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(110, 16);
             this.label38.TabIndex = 5;
@@ -786,7 +787,7 @@
             // lblPersonelId
             // 
             this.lblPersonelId.AutoSize = true;
-            this.lblPersonelId.Location = new System.Drawing.Point(457, 118);
+            this.lblPersonelId.Location = new System.Drawing.Point(499, 37);
             this.lblPersonelId.Name = "lblPersonelId";
             this.lblPersonelId.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelId.TabIndex = 8;
@@ -795,7 +796,7 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(367, 118);
+            this.label40.Location = new System.Drawing.Point(409, 37);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(83, 16);
             this.label40.TabIndex = 7;
@@ -813,7 +814,7 @@
             // lblFiyat
             // 
             this.lblFiyat.AutoSize = true;
-            this.lblFiyat.Location = new System.Drawing.Point(457, 272);
+            this.lblFiyat.Location = new System.Drawing.Point(433, 306);
             this.lblFiyat.Name = "lblFiyat";
             this.lblFiyat.Size = new System.Drawing.Size(41, 16);
             this.lblFiyat.TabIndex = 11;
@@ -822,7 +823,7 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(409, 271);
+            this.label42.Location = new System.Drawing.Point(385, 305);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(42, 16);
             this.label42.TabIndex = 10;
@@ -831,7 +832,7 @@
             // lblGonderino
             // 
             this.lblGonderino.AutoSize = true;
-            this.lblGonderino.Location = new System.Drawing.Point(457, 295);
+            this.lblGonderino.Location = new System.Drawing.Point(433, 329);
             this.lblGonderino.Name = "lblGonderino";
             this.lblGonderino.Size = new System.Drawing.Size(41, 16);
             this.lblGonderino.TabIndex = 63;
@@ -840,7 +841,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(369, 294);
+            this.label28.Location = new System.Drawing.Point(345, 328);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(82, 16);
             this.label28.TabIndex = 62;
@@ -855,11 +856,30 @@
             this.button2.Text = "geri";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(445, 257);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.TabIndex = 68;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(354, 262);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 16);
+            this.label1.TabIndex = 69;
+            this.label1.Text = "Kargo Tipi :";
+            // 
             // FrmKargoOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 697);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lblGonderino);
             this.Controls.Add(this.label28);
@@ -976,5 +996,7 @@
         private System.Windows.Forms.Label lblGonderino;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
