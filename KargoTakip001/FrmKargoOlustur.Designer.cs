@@ -108,6 +108,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblGecis = new System.Windows.Forms.Label();
             this.grpBoxAlıcı.SuspendLayout();
             this.panel1.SuspendLayout();
             this.grpBoxGönderen.SuspendLayout();
@@ -700,7 +701,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(351, 232);
+            this.label32.Location = new System.Drawing.Point(362, 232);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(79, 16);
             this.label32.TabIndex = 59;
@@ -709,7 +710,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(359, 202);
+            this.label29.Location = new System.Drawing.Point(367, 202);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(74, 16);
             this.label29.TabIndex = 58;
@@ -718,7 +719,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(353, 174);
+            this.label30.Location = new System.Drawing.Point(361, 174);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(80, 16);
             this.label30.TabIndex = 57;
@@ -751,7 +752,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(405, -2);
+            this.label35.Location = new System.Drawing.Point(397, 9);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(87, 16);
             this.label35.TabIndex = 3;
@@ -760,7 +761,7 @@
             // lblPersonelAd
             // 
             this.lblPersonelAd.AutoSize = true;
-            this.lblPersonelAd.Location = new System.Drawing.Point(499, -1);
+            this.lblPersonelAd.Location = new System.Drawing.Point(491, 10);
             this.lblPersonelAd.Name = "lblPersonelAd";
             this.lblPersonelAd.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelAd.TabIndex = 4;
@@ -769,7 +770,7 @@
             // lblPersonelSoyad
             // 
             this.lblPersonelSoyad.AutoSize = true;
-            this.lblPersonelSoyad.Location = new System.Drawing.Point(499, 15);
+            this.lblPersonelSoyad.Location = new System.Drawing.Point(491, 26);
             this.lblPersonelSoyad.Name = "lblPersonelSoyad";
             this.lblPersonelSoyad.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelSoyad.TabIndex = 6;
@@ -778,7 +779,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(383, 15);
+            this.label38.Location = new System.Drawing.Point(375, 26);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(110, 16);
             this.label38.TabIndex = 5;
@@ -787,7 +788,7 @@
             // lblPersonelId
             // 
             this.lblPersonelId.AutoSize = true;
-            this.lblPersonelId.Location = new System.Drawing.Point(499, 37);
+            this.lblPersonelId.Location = new System.Drawing.Point(491, 48);
             this.lblPersonelId.Name = "lblPersonelId";
             this.lblPersonelId.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelId.TabIndex = 8;
@@ -796,7 +797,7 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(409, 37);
+            this.label40.Location = new System.Drawing.Point(401, 48);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(83, 16);
             this.label40.TabIndex = 7;
@@ -855,6 +856,7 @@
             this.button2.TabIndex = 67;
             this.button2.Text = "geri";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBox1
             // 
@@ -867,17 +869,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(354, 262);
+            this.label1.Location = new System.Drawing.Point(343, 262);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 16);
+            this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 69;
-            this.label1.Text = "Kargo Tipi :";
+            this.label1.Text = "Gönderim Tipi :";
+            // 
+            // lblGecis
+            // 
+            this.lblGecis.AutoSize = true;
+            this.lblGecis.Location = new System.Drawing.Point(624, 10);
+            this.lblGecis.Name = "lblGecis";
+            this.lblGecis.Size = new System.Drawing.Size(41, 16);
+            this.lblGecis.TabIndex = 70;
+            this.lblGecis.Text = "NULL";
             // 
             // FrmKargoOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 697);
+            this.Controls.Add(this.lblGecis);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -905,6 +917,7 @@
             this.Name = "FrmKargoOlustur";
             this.Text = "FrmPersonelDetail";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmKargoOlustur_FormClosing);
+            this.Load += new System.EventHandler(this.FrmKargoOlustur_Load);
             this.grpBoxAlıcı.ResumeLayout(false);
             this.grpBoxAlıcı.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -998,5 +1011,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblGecis;
     }
 }

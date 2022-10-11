@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace KargoTakip001
 {
+    
     public partial class FrmKargoOlustur : Form
     {
         public FrmKargoOlustur()
@@ -90,6 +91,18 @@ namespace KargoTakip001
                 txtMailAlici.Enabled = true;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+        private void FrmKargoOlustur_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
 
     }
 }

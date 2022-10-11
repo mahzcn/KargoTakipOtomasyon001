@@ -34,6 +34,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.lblGecis = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -92,12 +93,24 @@
             this.button2.TabIndex = 35;
             this.button2.Text = "geri";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lblGecis
+            // 
+            this.lblGecis.AutoSize = true;
+            this.lblGecis.Location = new System.Drawing.Point(292, 9);
+            this.lblGecis.Name = "lblGecis";
+            this.lblGecis.Size = new System.Drawing.Size(41, 16);
+            this.lblGecis.TabIndex = 36;
+            this.lblGecis.Text = "NULL";
+            this.lblGecis.Visible = false;
             // 
             // FrmTakip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblGecis);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
@@ -106,6 +119,7 @@
             this.Name = "FrmTakip";
             this.Text = "FrmTakip";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmTakip_FormClosing);
+            this.Load += new System.EventHandler(this.FrmTakip_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -121,5 +135,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lblGecis;
     }
 }

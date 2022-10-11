@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -30,6 +31,7 @@ namespace KargoTakip001
         {
             FrmKargoOlustur frm1 = new FrmKargoOlustur();
             frm.Form(frm1, this);
+            
 
         }
 
@@ -42,6 +44,7 @@ namespace KargoTakip001
         {
             FrmMudur frm1 = new FrmMudur();
             frm.Form(frm1, this);
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,6 +52,12 @@ namespace KargoTakip001
             FrmTakip frm1 = new FrmTakip();
             frm.Form(frm1, this);
 
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            Main frm1 = new Main();
+            frm.Form(frm1, this);
         }
     }
 }

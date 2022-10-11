@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace KargoTakip001
 {
+
     public partial class FrmTakip : Form
     {
+
         public FrmTakip()
         {
             InitializeComponent();
@@ -20,6 +22,17 @@ namespace KargoTakip001
         private void FrmTakip_FormClosing(object sender, FormClosingEventArgs e)
         {
             FormManager.FormClose(e);
+        }
+
+
+
+        private void FrmTakip_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
         }
     }
 }
