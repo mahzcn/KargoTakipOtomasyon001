@@ -109,6 +109,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblGecis = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.grpBoxAlıcı.SuspendLayout();
             this.panel1.SuspendLayout();
             this.grpBoxGönderen.SuspendLayout();
@@ -752,16 +754,16 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(397, 9);
+            this.label35.Location = new System.Drawing.Point(439, 9);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(87, 16);
+            this.label35.Size = new System.Drawing.Size(30, 16);
             this.label35.TabIndex = 3;
-            this.label35.Text = "Personel Ad :";
+            this.label35.Text = "Ad :";
             // 
             // lblPersonelAd
             // 
             this.lblPersonelAd.AutoSize = true;
-            this.lblPersonelAd.Location = new System.Drawing.Point(491, 10);
+            this.lblPersonelAd.Location = new System.Drawing.Point(471, 10);
             this.lblPersonelAd.Name = "lblPersonelAd";
             this.lblPersonelAd.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelAd.TabIndex = 4;
@@ -770,7 +772,7 @@
             // lblPersonelSoyad
             // 
             this.lblPersonelSoyad.AutoSize = true;
-            this.lblPersonelSoyad.Location = new System.Drawing.Point(491, 26);
+            this.lblPersonelSoyad.Location = new System.Drawing.Point(471, 26);
             this.lblPersonelSoyad.Name = "lblPersonelSoyad";
             this.lblPersonelSoyad.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelSoyad.TabIndex = 6;
@@ -779,16 +781,16 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(375, 26);
+            this.label38.Location = new System.Drawing.Point(417, 26);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(110, 16);
+            this.label38.Size = new System.Drawing.Size(53, 16);
             this.label38.TabIndex = 5;
-            this.label38.Text = "Personel Soyad :";
+            this.label38.Text = "Soyad :";
             // 
             // lblPersonelId
             // 
             this.lblPersonelId.AutoSize = true;
-            this.lblPersonelId.Location = new System.Drawing.Point(491, 48);
+            this.lblPersonelId.Location = new System.Drawing.Point(471, 48);
             this.lblPersonelId.Name = "lblPersonelId";
             this.lblPersonelId.Size = new System.Drawing.Size(41, 16);
             this.lblPersonelId.TabIndex = 8;
@@ -797,11 +799,11 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(401, 48);
+            this.label40.Location = new System.Drawing.Point(443, 48);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(83, 16);
+            this.label40.Size = new System.Drawing.Size(26, 16);
             this.label40.TabIndex = 7;
-            this.label40.Text = "Personel ID :";
+            this.label40.Text = "ID :";
             // 
             // button1
             // 
@@ -883,12 +885,33 @@
             this.lblGecis.Size = new System.Drawing.Size(41, 16);
             this.lblGecis.TabIndex = 70;
             this.lblGecis.Text = "NULL";
+            this.lblGecis.Visible = false;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(471, 67);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(41, 16);
+            this.label31.TabIndex = 72;
+            this.label31.Text = "NULL";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(401, 67);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(68, 16);
+            this.label33.TabIndex = 71;
+            this.label33.Text = "Pozisyon :";
             // 
             // FrmKargoOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(924, 697);
+            this.Controls.Add(this.label31);
+            this.Controls.Add(this.label33);
             this.Controls.Add(this.lblGecis);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
@@ -1012,5 +1035,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblGecis;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label33;
     }
 }

@@ -13,6 +13,7 @@ namespace KargoTakip001
     
     public partial class FrmKargoOlustur : Form
     {
+        FormView frm = new FormView();
         public FrmKargoOlustur()
         {
             InitializeComponent();
