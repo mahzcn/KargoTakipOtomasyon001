@@ -35,7 +35,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.txtCaddeAlici = new System.Windows.Forms.TextBox();
             this.txtMailAlici = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -61,7 +60,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.txtCaddeGonderici = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -107,15 +105,24 @@
             this.label39 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cBoxIlGonderici = new System.Windows.Forms.ComboBox();
+            this.cBoxIlceGonderici = new System.Windows.Forms.ComboBox();
+            this.cBoxMahalleGonderici = new System.Windows.Forms.ComboBox();
+            this.cboxSemt = new System.Windows.Forms.ComboBox();
+            this.cboxIlce = new System.Windows.Forms.ComboBox();
+            this.cboxIl = new System.Windows.Forms.ComboBox();
+            this.cBoxSemtGonderici = new System.Windows.Forms.ComboBox();
+            this.cBoxMahalle = new System.Windows.Forms.ComboBox();
             this.grpBoxAlıcı.SuspendLayout();
             this.grpBoxGönderen.SuspendLayout();
             this.SuspendLayout();
             // 
             // grpBoxAlıcı
             // 
+            this.grpBoxAlıcı.Controls.Add(this.cBoxMahalle);
+            this.grpBoxAlıcı.Controls.Add(this.cboxSemt);
+            this.grpBoxAlıcı.Controls.Add(this.cboxIlce);
+            this.grpBoxAlıcı.Controls.Add(this.cboxIl);
             this.grpBoxAlıcı.Controls.Add(this.label37);
             this.grpBoxAlıcı.Controls.Add(this.richTextBox2);
             this.grpBoxAlıcı.Controls.Add(this.mTxtTelefonAlici);
@@ -124,7 +131,6 @@
             this.grpBoxAlıcı.Controls.Add(this.label14);
             this.grpBoxAlıcı.Controls.Add(this.label12);
             this.grpBoxAlıcı.Controls.Add(this.label11);
-            this.grpBoxAlıcı.Controls.Add(this.txtCaddeAlici);
             this.grpBoxAlıcı.Controls.Add(this.txtMailAlici);
             this.grpBoxAlıcı.Controls.Add(this.label10);
             this.grpBoxAlıcı.Controls.Add(this.label9);
@@ -151,10 +157,10 @@
             // mTxtTelefonAlici
             // 
             this.mTxtTelefonAlici.Enabled = false;
-            this.mTxtTelefonAlici.Location = new System.Drawing.Point(107, 507);
+            this.mTxtTelefonAlici.Location = new System.Drawing.Point(107, 524);
             this.mTxtTelefonAlici.Mask = "(999) 000-0000";
             this.mTxtTelefonAlici.Name = "mTxtTelefonAlici";
-            this.mTxtTelefonAlici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTelefonAlici.Size = new System.Drawing.Size(104, 22);
             this.mTxtTelefonAlici.TabIndex = 11;
             // 
             // mTxtTcAlici
@@ -169,7 +175,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 480);
+            this.label13.Location = new System.Drawing.Point(6, 345);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 16);
             this.label13.TabIndex = 26;
@@ -178,7 +184,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(34, 335);
+            this.label14.Location = new System.Drawing.Point(35, 378);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(61, 16);
             this.label14.TabIndex = 25;
@@ -202,26 +208,18 @@
             this.label11.TabIndex = 23;
             this.label11.Text = "İl :";
             // 
-            // txtCaddeAlici
-            // 
-            this.txtCaddeAlici.Enabled = false;
-            this.txtCaddeAlici.Location = new System.Drawing.Point(106, 477);
-            this.txtCaddeAlici.Name = "txtCaddeAlici";
-            this.txtCaddeAlici.Size = new System.Drawing.Size(100, 22);
-            this.txtCaddeAlici.TabIndex = 10;
-            // 
             // txtMailAlici
             // 
             this.txtMailAlici.Enabled = false;
-            this.txtMailAlici.Location = new System.Drawing.Point(106, 535);
+            this.txtMailAlici.Location = new System.Drawing.Point(106, 552);
             this.txtMailAlici.Name = "txtMailAlici";
-            this.txtMailAlici.Size = new System.Drawing.Size(100, 22);
+            this.txtMailAlici.Size = new System.Drawing.Size(104, 22);
             this.txtMailAlici.TabIndex = 12;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(42, 538);
+            this.label10.Location = new System.Drawing.Point(42, 555);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(51, 16);
             this.label10.TabIndex = 18;
@@ -230,7 +228,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(34, 507);
+            this.label9.Location = new System.Drawing.Point(34, 524);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(59, 16);
             this.label9.TabIndex = 16;
@@ -356,9 +354,10 @@
             // 
             // grpBoxGönderen
             // 
-            this.grpBoxGönderen.Controls.Add(this.comboBox4);
-            this.grpBoxGönderen.Controls.Add(this.comboBox3);
-            this.grpBoxGönderen.Controls.Add(this.comboBox2);
+            this.grpBoxGönderen.Controls.Add(this.cBoxSemtGonderici);
+            this.grpBoxGönderen.Controls.Add(this.cBoxMahalleGonderici);
+            this.grpBoxGönderen.Controls.Add(this.cBoxIlceGonderici);
+            this.grpBoxGönderen.Controls.Add(this.cBoxIlGonderici);
             this.grpBoxGönderen.Controls.Add(this.label36);
             this.grpBoxGönderen.Controls.Add(this.richTextBox1);
             this.grpBoxGönderen.Controls.Add(this.txtMailGonderici);
@@ -369,7 +368,6 @@
             this.grpBoxGönderen.Controls.Add(this.label16);
             this.grpBoxGönderen.Controls.Add(this.label17);
             this.grpBoxGönderen.Controls.Add(this.label18);
-            this.grpBoxGönderen.Controls.Add(this.txtCaddeGonderici);
             this.grpBoxGönderen.Controls.Add(this.label20);
             this.grpBoxGönderen.Controls.Add(this.label21);
             this.grpBoxGönderen.Controls.Add(this.label22);
@@ -396,7 +394,7 @@
             this.txtMailGonderici.Enabled = false;
             this.txtMailGonderici.Location = new System.Drawing.Point(104, 555);
             this.txtMailGonderici.Name = "txtMailGonderici";
-            this.txtMailGonderici.Size = new System.Drawing.Size(100, 22);
+            this.txtMailGonderici.Size = new System.Drawing.Size(104, 22);
             this.txtMailGonderici.TabIndex = 13;
             // 
             // label19
@@ -414,7 +412,7 @@
             this.mTxtTelefonGonderici.Location = new System.Drawing.Point(104, 526);
             this.mTxtTelefonGonderici.Mask = "(999) 000-0000";
             this.mTxtTelefonGonderici.Name = "mTxtTelefonGonderici";
-            this.mTxtTelefonGonderici.Size = new System.Drawing.Size(100, 22);
+            this.mTxtTelefonGonderici.Size = new System.Drawing.Size(104, 22);
             this.mTxtTelefonGonderici.TabIndex = 12;
             // 
             // mTxtTcGonderici
@@ -429,7 +427,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(9, 497);
+            this.label15.Location = new System.Drawing.Point(15, 345);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(82, 16);
             this.label15.TabIndex = 52;
@@ -438,7 +436,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(37, 345);
+            this.label16.Location = new System.Drawing.Point(37, 378);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(61, 16);
             this.label16.TabIndex = 51;
@@ -461,14 +459,6 @@
             this.label18.Size = new System.Drawing.Size(19, 16);
             this.label18.TabIndex = 49;
             this.label18.Text = "İl :";
-            // 
-            // txtCaddeGonderici
-            // 
-            this.txtCaddeGonderici.Enabled = false;
-            this.txtCaddeGonderici.Location = new System.Drawing.Point(104, 494);
-            this.txtCaddeGonderici.Name = "txtCaddeGonderici";
-            this.txtCaddeGonderici.Size = new System.Drawing.Size(100, 22);
-            this.txtCaddeGonderici.TabIndex = 11;
             // 
             // label20
             // 
@@ -801,7 +791,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(104, 372);
+            this.richTextBox1.Location = new System.Drawing.Point(104, 404);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(104, 116);
             this.richTextBox1.TabIndex = 27;
@@ -810,7 +800,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(10, 375);
+            this.label36.Location = new System.Drawing.Point(10, 407);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(88, 16);
             this.label36.TabIndex = 65;
@@ -819,7 +809,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(8, 358);
+            this.label37.Location = new System.Drawing.Point(9, 405);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(88, 16);
             this.label37.TabIndex = 67;
@@ -827,9 +817,9 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(106, 355);
+            this.richTextBox2.Location = new System.Drawing.Point(107, 402);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(100, 116);
+            this.richTextBox2.Size = new System.Drawing.Size(105, 116);
             this.richTextBox2.TabIndex = 66;
             this.richTextBox2.Text = "";
             // 
@@ -865,29 +855,69 @@
             this.label41.TabIndex = 76;
             this.label41.Text = "Boy :";
             // 
-            // comboBox2
+            // cBoxIlGonderici
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(104, 282);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(104, 24);
-            this.comboBox2.TabIndex = 66;
+            this.cBoxIlGonderici.FormattingEnabled = true;
+            this.cBoxIlGonderici.Location = new System.Drawing.Point(104, 282);
+            this.cBoxIlGonderici.Name = "cBoxIlGonderici";
+            this.cBoxIlGonderici.Size = new System.Drawing.Size(104, 24);
+            this.cBoxIlGonderici.TabIndex = 66;
             // 
-            // comboBox3
+            // cBoxIlceGonderici
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(104, 312);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(104, 24);
-            this.comboBox3.TabIndex = 67;
+            this.cBoxIlceGonderici.FormattingEnabled = true;
+            this.cBoxIlceGonderici.Location = new System.Drawing.Point(104, 312);
+            this.cBoxIlceGonderici.Name = "cBoxIlceGonderici";
+            this.cBoxIlceGonderici.Size = new System.Drawing.Size(104, 24);
+            this.cBoxIlceGonderici.TabIndex = 67;
             // 
-            // comboBox4
+            // cBoxMahalleGonderici
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(104, 342);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(104, 24);
-            this.comboBox4.TabIndex = 68;
+            this.cBoxMahalleGonderici.FormattingEnabled = true;
+            this.cBoxMahalleGonderici.Location = new System.Drawing.Point(104, 375);
+            this.cBoxMahalleGonderici.Name = "cBoxMahalleGonderici";
+            this.cBoxMahalleGonderici.Size = new System.Drawing.Size(104, 24);
+            this.cBoxMahalleGonderici.TabIndex = 68;
+            // 
+            // cboxSemt
+            // 
+            this.cboxSemt.FormattingEnabled = true;
+            this.cboxSemt.Location = new System.Drawing.Point(107, 342);
+            this.cboxSemt.Name = "cboxSemt";
+            this.cboxSemt.Size = new System.Drawing.Size(104, 24);
+            this.cboxSemt.TabIndex = 71;
+            // 
+            // cboxIlce
+            // 
+            this.cboxIlce.FormattingEnabled = true;
+            this.cboxIlce.Location = new System.Drawing.Point(107, 312);
+            this.cboxIlce.Name = "cboxIlce";
+            this.cboxIlce.Size = new System.Drawing.Size(104, 24);
+            this.cboxIlce.TabIndex = 70;
+            // 
+            // cboxIl
+            // 
+            this.cboxIl.FormattingEnabled = true;
+            this.cboxIl.Location = new System.Drawing.Point(107, 282);
+            this.cboxIl.Name = "cboxIl";
+            this.cboxIl.Size = new System.Drawing.Size(104, 24);
+            this.cboxIl.TabIndex = 69;
+            // 
+            // cBoxSemtGonderici
+            // 
+            this.cBoxSemtGonderici.FormattingEnabled = true;
+            this.cBoxSemtGonderici.Location = new System.Drawing.Point(104, 342);
+            this.cBoxSemtGonderici.Name = "cBoxSemtGonderici";
+            this.cBoxSemtGonderici.Size = new System.Drawing.Size(104, 24);
+            this.cBoxSemtGonderici.TabIndex = 69;
+            // 
+            // cBoxMahalle
+            // 
+            this.cBoxMahalle.FormattingEnabled = true;
+            this.cBoxMahalle.Location = new System.Drawing.Point(106, 372);
+            this.cBoxMahalle.Name = "cBoxMahalle";
+            this.cBoxMahalle.Size = new System.Drawing.Size(104, 24);
+            this.cBoxMahalle.TabIndex = 72;
             // 
             // FrmKargoOlustur
             // 
@@ -960,12 +990,10 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtCaddeAlici;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox txtCaddeGonderici;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -1011,14 +1039,19 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cBoxMahalleGonderici;
+        private System.Windows.Forms.ComboBox cBoxIlceGonderici;
+        private System.Windows.Forms.ComboBox cBoxIlGonderici;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.ComboBox cboxSemt;
+        private System.Windows.Forms.ComboBox cboxIlce;
+        private System.Windows.Forms.ComboBox cboxIl;
+        private System.Windows.Forms.ComboBox cBoxSemtGonderici;
+        private System.Windows.Forms.ComboBox cBoxMahalle;
     }
 }

@@ -35,10 +35,10 @@ namespace KargoTakip001
             {
                 txtKurumAdiGonderici.Enabled = true;
                 txtVergiGonderici.Enabled = true;
-                txtMahalleGonderici.Enabled = true;
-                txtIlGonderici.Enabled = true;
-                txtIlceGonderici.Enabled = true;
-                txtCaddeGonderici.Enabled = true;
+                cBoxMahalleGonderici.Enabled = true;
+                cBoxIlGonderici.Enabled = true;
+                cboxSemt.Enabled = true;
+                cBoxIlceGonderici.Enabled = true;
                 mTxtTelefonGonderici.Enabled = true;
                 txtMailGonderici.Enabled = true;
                 txtAdGönderici.Enabled = false;
@@ -54,10 +54,10 @@ namespace KargoTakip001
             {
                 txtKurumAdiAlici.Enabled = true;
                 txtVergiNoAlici.Enabled = true;
-                txtMahalleAlici.Enabled = true;
-                txtIlAlici.Enabled = true;
-                txtIlceAlici.Enabled = true;
-                txtCaddeAlici.Enabled = true;
+                cboxIl.Enabled = true;
+                cboxIlce.Enabled = true;
+                cboxSemt.Enabled = true;
+                cBoxMahalle.Enabled = true;
                 mTxtTelefonAlici.Enabled = true;
                 txtMailAlici.Enabled = true;
                 txtAdAlici.Enabled = false;
@@ -84,10 +84,10 @@ namespace KargoTakip001
                 txtAdGönderici.Enabled = true;
                 txtSoyadGonderici.Enabled = true;
                 mTxtTcGonderici.Enabled = true;
-                txtMahalleGonderici.Enabled = true;
-                txtIlGonderici.Enabled = true;
-                txtIlceGonderici.Enabled = true;
-                txtCaddeGonderici.Enabled = true;
+                cBoxMahalleGonderici.Enabled = true;
+                cBoxIlGonderici.Enabled = true;
+                cBoxIlceGonderici.Enabled = true;
+                cBoxSemtGonderici.Enabled = true;
                 mTxtTelefonGonderici.Enabled = true;
                 txtMailGonderici.Enabled = true;
             }
@@ -102,10 +102,10 @@ namespace KargoTakip001
                 txtAdAlici.Enabled = true;
                 txtSoyadAlici.Enabled = true;
                 mTxtTcAlici.Enabled = true;
-                txtMahalleAlici.Enabled = true;
-                txtIlAlici.Enabled = true;
-                txtIlceAlici.Enabled = true;
-                txtCaddeAlici.Enabled = true;
+                cBoxMahalle.Enabled = true;
+                cboxIl.Enabled = true;
+                cboxIlce.Enabled = true;
+                cboxSemt.Enabled = true;
                 mTxtTelefonAlici.Enabled = true;
                 txtMailAlici.Enabled = true;
             }
