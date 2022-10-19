@@ -731,7 +731,7 @@
             // lblFiyat
             // 
             this.lblFiyat.AutoSize = true;
-            this.lblFiyat.Location = new System.Drawing.Point(469, 358);
+            this.lblFiyat.Location = new System.Drawing.Point(471, 357);
             this.lblFiyat.Name = "lblFiyat";
             this.lblFiyat.Size = new System.Drawing.Size(41, 16);
             this.lblFiyat.TabIndex = 11;
