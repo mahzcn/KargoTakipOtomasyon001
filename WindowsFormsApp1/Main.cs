@@ -71,9 +71,6 @@ namespace WindowsFormsApp1
                 provider.SetError(mTxtSicilNo, "Eksik veya yanlış girdiniz");
                 if (cboxPozisyon.Text != "Personel" || cboxPozisyon.Text != "Müdür")
 
-                {
-                    provider.SetError(cboxPozisyon, "Eksik veya yanlış girdiniz");
-                }
             }
         }
 
