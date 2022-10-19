@@ -13,7 +13,7 @@ namespace KargoTakip001
 
     public partial class FrmTakip : Form
     {
-        FormView frm = new FormView();
+
         public FrmTakip()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace KargoTakip001
 
         private void FrmTakip_FormClosing(object sender, FormClosingEventArgs e)
         {
-            FormManager.FormClose(e);
+
         }
 
 
@@ -33,8 +33,7 @@ namespace KargoTakip001
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FrmMudurHead frm1 = new FrmMudurHead();
-            frm.Form(frm1, this);
+
         }
     }
 }

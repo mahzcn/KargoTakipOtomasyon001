@@ -13,7 +13,7 @@ namespace KargoTakip001
         {
             if (MessageBox.Show("Çıkmak istediğinize emin misiniz?", "Dikkat", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) 
             { 
-            Environment.Exit(1);
+            Application.Exit();
             }
             else
             {

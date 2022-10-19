@@ -13,7 +13,7 @@ namespace KargoTakip001
     
     public partial class FrmKargoOlustur : Form
     {
-        FormView frm = new FormView();
+        public string gecis { get; set; }
         public FrmKargoOlustur()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace KargoTakip001
 
         private void FrmKargoOlustur_FormClosing(object sender, FormClosingEventArgs e)
         {
-            FormManager.FormClose(e);
+            
         }
 
         private void rBtnTuzel_CheckedChanged(object sender, EventArgs e)
@@ -67,11 +67,7 @@ namespace KargoTakip001
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            FrmMudurHead frm1 = new FrmMudurHead();
-            frm.Form(frm1, this);
-        }
+
         
         private void FrmKargoOlustur_Load(object sender, EventArgs e)
         {
@@ -114,5 +110,7 @@ namespace KargoTakip001
                 txtMailAlici.Enabled = true;
             }
         }
+
+
     }
 }

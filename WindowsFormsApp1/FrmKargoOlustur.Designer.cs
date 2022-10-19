@@ -105,7 +105,6 @@
             this.label42 = new System.Windows.Forms.Label();
             this.lblGonderino = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblGecis = new System.Windows.Forms.Label();
@@ -850,16 +849,6 @@
             this.label28.TabIndex = 62;
             this.label28.Text = "Gönderi No :";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(12, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 27);
-            this.button2.TabIndex = 67;
-            this.button2.Text = "geri";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -915,7 +904,6 @@
             this.Controls.Add(this.lblGecis);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.lblGonderino);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.lblFiyat);
@@ -1031,7 +1019,6 @@
         private System.Windows.Forms.WebBrowser webBrowser2;
         private System.Windows.Forms.Label lblGonderino;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblGecis;
