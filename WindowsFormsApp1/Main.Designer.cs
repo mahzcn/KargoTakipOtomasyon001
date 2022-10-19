@@ -68,7 +68,7 @@
             this.txtPassword.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(277, 39);
+            this.txtPassword.Size = new System.Drawing.Size(205, 39);
             this.txtPassword.TabIndex = 1;
             // 
             // label1
@@ -78,18 +78,18 @@
             this.label1.Location = new System.Drawing.Point(249, 129);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 32);
+            this.label1.Size = new System.Drawing.Size(85, 32);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Sicil NO :";
+            this.label1.Text = "Tc No :";
             // 
             // mTxtSicilNo
             // 
             this.mTxtSicilNo.Font = new System.Drawing.Font("Noto Sans", 13.8F);
             this.mTxtSicilNo.Location = new System.Drawing.Point(367, 126);
             this.mTxtSicilNo.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.mTxtSicilNo.Mask = "00000000000000000000000000";
+            this.mTxtSicilNo.Mask = "00000000000";
             this.mTxtSicilNo.Name = "mTxtSicilNo";
-            this.mTxtSicilNo.Size = new System.Drawing.Size(277, 39);
+            this.mTxtSicilNo.Size = new System.Drawing.Size(205, 39);
             this.mTxtSicilNo.TabIndex = 9;
             // 
             // cboxPozisyon
@@ -100,7 +100,7 @@
             "Müdür"});
             this.cboxPozisyon.Location = new System.Drawing.Point(367, 62);
             this.cboxPozisyon.Name = "cboxPozisyon";
-            this.cboxPozisyon.Size = new System.Drawing.Size(277, 40);
+            this.cboxPozisyon.Size = new System.Drawing.Size(205, 40);
             this.cboxPozisyon.TabIndex = 10;
             // 
             // label3

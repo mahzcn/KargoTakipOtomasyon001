@@ -11,43 +11,69 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+
+
     public partial class Main : Form
     {
         FrmPersonel fr = new FrmPersonel()
         {
-            
+
         };
-        
-        public  Main()
+
+        public Main()
         {
             InitializeComponent();
-             
+
         }
 
         private void btnMusteri_Click(object sender, EventArgs e)
         {
-            
-            if (cboxPozisyon.Text == "Personel")
+            ErrorProvider provider = new ErrorProvider();
+            if (Manager.TcDogrulaV2(mTxtSicilNo.Text) == true)
             {
+                mTxtSicilNo.BackColor = Color.White;
+                if (cboxPozisyon.Text == "Personel" || cboxPozisyon.Text == "Müdür")
 
-                var frm = new FrmPersonel();
-                frm.Location = this.Location;
-                frm.StartPosition = FormStartPosition.Manual;
-                frm.FormClosing += delegate { this.Show(); };
-                frm.pozisyon = cboxPozisyon.Text;
-                frm.Show();
-                this.Hide();
+                {
+                    if (cboxPozisyon.Text == "Personel")
+                    {
+
+                        var frm = new FrmPersonel();
+                        frm.Location = this.Location;
+                        frm.StartPosition = FormStartPosition.Manual;
+                        frm.FormClosing += delegate { this.Close(); };
+                        frm.pozisyon = cboxPozisyon.Text;
+                        frm.Show();
+                        this.Hide();
+
+                    }
+                    if (cboxPozisyon.Text == "Müdür")
+                    {
+                        var frm = new Mudur();
+                        frm.Location = this.Location;
+                        frm.StartPosition = FormStartPosition.Manual;
+                        frm.FormClosing += delegate { this.Close(); };
+                        frm.pozisyon = cboxPozisyon.Text;
+                        frm.Show();
+                        this.Hide();
+
+                    }
+                }
+                else
+                {
+                    provider.SetError(cboxPozisyon, "Eksik veya yanlış girdiniz");
+                }
 
             }
-            if (cboxPozisyon.Text == "Müdür")
+            else
+
             {
-                var frm = new Mudur();
-                frm.Location = this.Location;
-                frm.StartPosition = FormStartPosition.Manual;
-                frm.FormClosing += delegate { this.Show(); };
-                frm.pozisyon = cboxPozisyon.Text;
-                frm.Show();
-                this.Hide();
+                provider.SetError(mTxtSicilNo, "Eksik veya yanlış girdiniz");
+                if (cboxPozisyon.Text != "Personel" || cboxPozisyon.Text != "Müdür")
+
+                {
+                    provider.SetError(cboxPozisyon, "Eksik veya yanlış girdiniz");
+                }
             }
         }
 
@@ -57,7 +83,7 @@ namespace WindowsFormsApp1
             {
                 txtPassword.PasswordChar = '\0';
             }
-            else if(checkBox1.Checked == false)
+            else if (checkBox1.Checked == false)
             {
                 txtPassword.PasswordChar = '*';
             }

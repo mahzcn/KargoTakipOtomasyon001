@@ -76,6 +76,7 @@
     <Compile Include="FrmPersonel.Designer.cs">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manager.cs" />
     <Compile Include="Mudur.cs">
       <SubType>Form</SubType>
     </Compile>
