@@ -65,14 +65,7 @@ namespace WindowsFormsApp1
                 }
 
             }
-            else
 
-            {
-                provider.SetError(mTxtSicilNo, "Eksik veya yanlış girdiniz");
-                if (cboxPozisyon.Text != "Personel" || cboxPozisyon.Text != "Müdür")
-
-            }
-        }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
