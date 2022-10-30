@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -37,7 +38,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -57,13 +57,19 @@
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.txtTCNo = new System.Windows.Forms.TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txtTCNo);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.textBox2);
@@ -72,7 +78,6 @@
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.maskedTextBox3);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label12);
@@ -112,14 +117,14 @@
             this.comboBox1.Location = new System.Drawing.Point(108, 151);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 24);
-            this.comboBox1.TabIndex = 4;
+            this.comboBox1.TabIndex = 5;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(108, 123);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.TabIndex = 4;
             // 
             // label2
             // 
@@ -135,7 +140,7 @@
             this.button3.Location = new System.Drawing.Point(309, 409);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 95);
-            this.button3.TabIndex = 13;
+            this.button3.TabIndex = 14;
             this.button3.Text = "Ekle";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -144,7 +149,7 @@
             this.button2.Location = new System.Drawing.Point(160, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 95);
-            this.button2.TabIndex = 12;
+            this.button2.TabIndex = 13;
             this.button2.Text = "Sil";
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -153,7 +158,7 @@
             this.button1.Location = new System.Drawing.Point(11, 409);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 95);
-            this.button1.TabIndex = 11;
+            this.button1.TabIndex = 12;
             this.button1.Text = "Güncelle";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -163,15 +168,7 @@
             this.maskedTextBox3.Mask = "(999) 000-0000";
             this.maskedTextBox3.Name = "maskedTextBox3";
             this.maskedTextBox3.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox3.TabIndex = 9;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(109, 95);
-            this.maskedTextBox1.Mask = "00000000000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 22);
-            this.maskedTextBox1.TabIndex = 2;
+            this.maskedTextBox3.TabIndex = 10;
             // 
             // label13
             // 
@@ -214,28 +211,28 @@
             this.txtCadde.Location = new System.Drawing.Point(108, 314);
             this.txtCadde.Name = "txtCadde";
             this.txtCadde.Size = new System.Drawing.Size(100, 22);
-            this.txtCadde.TabIndex = 8;
+            this.txtCadde.TabIndex = 9;
             // 
             // txtMahalle
             // 
             this.txtMahalle.Location = new System.Drawing.Point(108, 286);
             this.txtMahalle.Name = "txtMahalle";
             this.txtMahalle.Size = new System.Drawing.Size(100, 22);
-            this.txtMahalle.TabIndex = 7;
+            this.txtMahalle.TabIndex = 8;
             // 
             // txtIlce
             // 
             this.txtIlce.Location = new System.Drawing.Point(108, 258);
             this.txtIlce.Name = "txtIlce";
             this.txtIlce.Size = new System.Drawing.Size(100, 22);
-            this.txtIlce.TabIndex = 6;
+            this.txtIlce.TabIndex = 7;
             // 
             // txtKodu
             // 
             this.txtKodu.Location = new System.Drawing.Point(108, 372);
             this.txtKodu.Name = "txtKodu";
             this.txtKodu.Size = new System.Drawing.Size(100, 22);
-            this.txtKodu.TabIndex = 10;
+            this.txtKodu.TabIndex = 11;
             // 
             // label10
             // 
@@ -260,7 +257,7 @@
             this.txtIl.Location = new System.Drawing.Point(108, 230);
             this.txtIl.Name = "txtIl";
             this.txtIl.Size = new System.Drawing.Size(100, 22);
-            this.txtIl.TabIndex = 5;
+            this.txtIl.TabIndex = 6;
             // 
             // label8
             // 
@@ -314,6 +311,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dataGridView2);
             this.groupBox2.Controls.Add(this.dataGridView1);
             this.groupBox2.Location = new System.Drawing.Point(488, 65);
             this.groupBox2.Name = "groupBox2";
@@ -331,7 +329,30 @@
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(503, 526);
-            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.TabIndex = 15;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 18);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(503, 526);
+            this.dataGridView2.TabIndex = 16;
+            // 
+            // txtTCNo
+            // 
+            this.txtTCNo.Location = new System.Drawing.Point(108, 98);
+            this.txtTCNo.Name = "txtTCNo";
+            this.txtTCNo.Size = new System.Drawing.Size(100, 22);
+            this.txtTCNo.TabIndex = 63;
+            this.txtTCNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTCNo_KeyPress);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmPersonelControler
             // 
@@ -347,6 +368,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -356,7 +379,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
@@ -382,5 +404,8 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtTCNo;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

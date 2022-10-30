@@ -43,7 +43,7 @@ namespace KargoTakip001
                 txtMailGonderici.Enabled = true;
                 txtAdGönderici.Enabled = false;
                 txtSoyadGonderici.Enabled = false;
-                mTxtTcGonderici.Enabled = false;
+                txtTCNoGonderici.Enabled = false;
             }
 
         }
@@ -62,7 +62,7 @@ namespace KargoTakip001
                 txtMailAlici.Enabled = true;
                 txtAdAlici.Enabled = false;
                 txtSoyadAlici.Enabled = false;
-                mTxtTcAlici.Enabled = false;
+                txtTCNoAlici.Enabled = false;
             }
 
         }
@@ -83,7 +83,7 @@ namespace KargoTakip001
                 txtVergiGonderici.Enabled = false;
                 txtAdGönderici.Enabled = true;
                 txtSoyadGonderici.Enabled = true;
-                mTxtTcGonderici.Enabled = true;
+                txtTCNoGonderici.Enabled = true;
                 cBoxMahalleGonderici.Enabled = true;
                 cBoxIlGonderici.Enabled = true;
                 cBoxIlceGonderici.Enabled = true;
@@ -101,7 +101,7 @@ namespace KargoTakip001
                 txtVergiNoAlici.Enabled = false;
                 txtAdAlici.Enabled = true;
                 txtSoyadAlici.Enabled = true;
-                mTxtTcAlici.Enabled = true;
+                txtTCNoAlici.Enabled = true;
                 cBoxMahalle.Enabled = true;
                 cboxIl.Enabled = true;
                 cboxIlce.Enabled = true;
@@ -111,6 +111,189 @@ namespace KargoTakip001
             }
         }
 
+        private void txtTCNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            if (e.KeyChar != (char)Keys.Back)
+            {
+
+
+                if (txtTCNoGonderici.Text.Length == 0)
+                {
+                    if (e.KeyChar == '0')
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoGonderici, "İlk sayi 0 olamaz");
+
+                    }
+                    else
+                    {
+                        errorProvider1.Clear();
+                    }
+                }
+                else if (txtTCNoGonderici.Text.Length == 9)
+                {
+                    int[] dizi = new int[txtTCNoGonderici.Text.Length];
+                    for (int i = 0; i < dizi.Length; i++)
+                    {
+                        dizi[i] = (int)Char.GetNumericValue(txtTCNoGonderici.Text[i]);
+                    }
+                    int tek = 0, cift = 0;
+                    for (int i = 0; i < 9; i += 2)
+                    {
+                        tek += dizi[i];
+                    }
+
+                    for (int i = 1; i < 9; i += 2)
+                    {
+                        cift += dizi[i];
+                    }
+                    tek *= 7;
+                    int onuncuHane = (tek - cift) % 10;
+                    if (e.KeyChar.ToString() != onuncuHane.ToString())
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoGonderici, "10.Hanede Hatalı giriş");
+                    }
+                    else
+                    {
+                        e.Handled = false;
+                        errorProvider1.Clear();
+                    }
+
+
+                }
+                else if (txtTCNoGonderici.Text.Length == 10)
+                {
+                    int[] dizi = new int[txtTCNoGonderici.Text.Length];
+                    for (int i = 0; i < dizi.Length; i++)
+                    {
+                        dizi[i] = (int)Char.GetNumericValue(txtTCNoGonderici.Text[i]);
+                    }
+                    int toplam = 0;
+                    for (int i = 0; i < 10; i++)
+                    {
+                        toplam += dizi[i];
+                    }
+
+
+
+                    int onbirinciHane = toplam % 10;
+                    if (e.KeyChar.ToString() != onbirinciHane.ToString())
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoGonderici, "11.Hanede Hatalı giriş");
+                    }
+                    else
+                    {
+                        e.Handled = false;
+                        errorProvider1.Clear();
+                    }
+                }
+            }
+            else
+            {
+                e.Handled = false;
+                errorProvider1.Clear();
+            }
+        }
+
+        private void txtTCNo_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+            if (e.KeyChar != (char)Keys.Back)
+            {
+
+
+                if (txtTCNoAlici.Text.Length == 0)
+                {
+                    if (e.KeyChar == '0')
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoAlici, "İlk sayi 0 olamaz");
+
+                    }
+                    else
+                    {
+                        errorProvider1.Clear();
+                    }
+                }
+                else if (txtTCNoAlici.Text.Length == 9)
+                {
+                    int[] dizi = new int[txtTCNoAlici.Text.Length];
+                    for (int i = 0; i < dizi.Length; i++)
+                    {
+                        dizi[i] = (int)Char.GetNumericValue(txtTCNoAlici.Text[i]);
+                    }
+                    int tek = 0, cift = 0;
+                    for (int i = 0; i < 9; i += 2)
+                    {
+                        tek += dizi[i];
+                    }
+
+                    for (int i = 1; i < 9; i += 2)
+                    {
+                        cift += dizi[i];
+                    }
+                    tek *= 7;
+                    int onuncuHane = (tek - cift) % 10;
+                    if (e.KeyChar.ToString() != onuncuHane.ToString())
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoAlici, "10.Hanede Hatalı giriş");
+                    }
+                    else
+                    {
+                        e.Handled = false;
+                        errorProvider1.Clear();
+                    }
+
+
+                }
+                else if (txtTCNoAlici.Text.Length == 10)
+                {
+                    int[] dizi = new int[txtTCNoAlici.Text.Length];
+                    for (int i = 0; i < dizi.Length; i++)
+                    {
+                        dizi[i] = (int)Char.GetNumericValue(txtTCNoAlici.Text[i]);
+                    }
+                    int toplam = 0;
+                    for (int i = 0; i < 10; i++)
+                    {
+                        toplam += dizi[i];
+                    }
+
+
+
+                    int onbirinciHane = toplam % 10;
+                    if (e.KeyChar.ToString() != onbirinciHane.ToString())
+                    {
+                        e.Handled = true;
+                        errorProvider1.SetError(txtTCNoAlici, "11.Hanede Hatalı giriş");
+                    }
+                    else
+                    {
+                        e.Handled = false;
+                        errorProvider1.Clear();
+                    }
+                }
+            }
+            else
+            {
+                e.Handled = false;
+                errorProvider1.Clear();
+            }
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }
